@@ -1,0 +1,2922 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://www.filepicker.io/api/file/8ZFxjaQTD2bttn5KUdiC' rel='icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:72,height:72/https://www.filepicker.io/api/file/8ZFxjaQTD2bttn5KUdiC' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:144,height:144/https://www.filepicker.io/api/file/8ZFxjaQTD2bttn5KUdiC' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:320,height:345/https://www.filepicker.io/api/file/oddrsg4uSfGkwx908aw8' rel='apple-touch-startup-image' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:640,height:690/https://www.filepicker.io/api/file/oddrsg4uSfGkwx908aw8' rel='apple-touch-startup-image' type='image/png'>
+
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta charset="UTF-8">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="zDiFO27K9Bd4vMg07VUdcBQZQzC2vSd4uebb0ceOAh1uDMHvZqA+tqJgUK6Zjc/qLEUNKyk7eNBh1GLwLckK0w==" />
+<link rel="stylesheet" media="screen" href="https://fedora.teachablecdn.com/assets/bootstrap-d989a3f5b1f1bca0585c204acf93e7e781ab3db1f16f403a5e77336f1c4d4c0f.css" data-turbolinks-track="true" /><link href="https://themes2.teachablecdn.com/themecss/production/base.css?_=8e7f2089833c&amp;brand_course_heading=%23ffffff&amp;brand_homepage_heading=%23ffffff&amp;brand_navbar_fixed_text=%23ffffff&amp;brand_navbar_text=%23ffffff&amp;brand_secondary=%239bdf46&amp;logged_out_homepage_background_image_overlay=0.6&amp;logged_out_homepage_background_image_url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2Foddrsg4uSfGkwx908aw8&amp;show_login=true&amp;show_signup=true" rel="stylesheet" data-turbolinks-track="true"></link>
+<title>Introduction to CSS | Bolt IoT</title>
+<meta name="description" content="Everything you need to know about building a website.">
+<link rel="canonical" href="https://trainings.boltiot.com/courses/1071071/lectures/22864833">
+<meta property="og:description" content="Everything you need to know about building a website.">
+<meta property="og:image" content="https://www.filepicker.io/api/file/DPysl9pjSiddkSJDVcRf">
+<meta property="og:title" content="Introduction to CSS">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://trainings.boltiot.com/courses/1071071/lectures/22864833">
+<meta name="brand_video_player_color" content="#09A59A">
+<meta name="site_title" content="Bolt IoT">
+<style></style>
+<script src='//fast.wistia.com/assets/external/E-v1.js'></script>
+<script src='https://www.recaptcha.net/recaptcha/api.js' async defer></script>
+
+
+      <meta name="asset_host" content="https://fedora.teachablecdn.com">
+     <script src="https://fedora.teachablecdn.com/packs/student-globals-706ca3a2cc1a2e92bfb8.js"></script><script src="https://fedora.teachablecdn.com/packs/student-legacy-b8f2ceefa2c2a62e6328.js"></script><script src="https://fedora.teachablecdn.com/packs/student-0d676b4a2f78197acb5c.js"></script>
+
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5caf3436d9566000128a171b&product=inline-share-buttons' async='async'></script>
+
+
+<script>
+  if(typeof ga != 'function') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  }
+  ga('create', 'UA-44397410-1', 'auto', {'name': 'fedoraTracker', 'allowLinker': true});
+  ga('fedoraTracker.set', 'anonymizeIp', false);
+  ga('fedoraTracker.require', 'linker');
+  ga('fedoraTracker.linker:autoLink', ['trainings.boltiot.com',  'sso.teachable.com'], false, true );
+  ga('fedoraTracker.require', 'ecommerce');
+  ga('fedoraTracker.require', 'ec');
+  ga('fedoraTracker.send', 'pageview');
+  ga('create', 'UA-44397410-4', 'auto', {'name': 'teachableTracker', 'allowLinker': true});
+  ga('teachableTracker.set', 'anonymizeIp', false);
+  ga('teachableTracker.require', 'linker');
+  ga('teachableTracker.linker:autoLink', ['trainings.boltiot.com', 'sso.teachable.com'], false, true );
+  ga('teachableTracker.require', 'ecommerce');
+  ga('teachableTracker.require', 'ec');
+  ga('teachableTracker.send', 'pageview');
+</script>
+
+<meta id='iris-url' data-iris-url=https://eventable.teachable.cloud />
+<link href="/blog/rss" rel="alternate" title="RSS Feed" type="application/rss+xml" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  </head>
+
+  <body data-no-turbolink="true" class="revamped_lecture_player">
+          <meta http-content='IE=Edge' http-equiv='X-UA-Compatible'>
+      <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
+<meta id="fedora-keys" data-commit-sha="8e7f2089833c30ea98299ee1890bd8e5fc67cfbb" data-env="production" data-sentry-public-dsn="https://8149a85a83fa4ec69640c43ddd69017d@sentry.io/120346" data-stripe="pk_live_hkgvgSBxG4TAl3zGlXiB1KUX" data-track-all-ahoy="false" data-track-changes-ahoy="false" data-track-clicks-ahoy="false" data-track-sumbits-ahoy="false" data-filepicker="ADNupMnWyR7kCWRvm76Laz" data-iris-url="https://eventable.teachable.cloud" /><meta id="fedora-data" data-id="58871702" data-name="Abhighyan B" data-email="abhighyan.bommerla@gmail.com" data-school-id="278090" data-joined-at="&quot;2021-05-27T05:35:45Z&quot;" data-wistia-identifier="278090:student:58871702" data-gravatar-url="https://s.gravatar.com/avatar/f641d4be9f667365f536390ce3fc62e8?d=mm" data-custom-role-course-permissions="false" data-report-card="{&quot;1071071&quot;:{&quot;id&quot;:284447271,&quot;course_id&quot;:1071071,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:20,&quot;enrolled_at&quot;:&quot;2021-05-27T05:35:45Z&quot;,&quot;updated_at&quot;:&quot;2021-06-01T07:50:11Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:20,&quot;completed_lecture_ids&quot;:[22821555,22836014,22836208,22836344,22836348,22836352,22837255,22837260,22837264,22837281,22837309,22841370,22864821,22864826,22864827,22864830,22864831,22864833,28037521,30570411],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:19},&quot;meta&quot;:{&quot;cached_at&quot;:&quot;2021-06-15T14:11:03Z&quot;}}" data-course-ids="[1071071]" data-role="student" data-completed-lecture-ids="[22821555,22836014,22836208,22836344,22836348,22836352,22837255,22837260,22837264,22837281,22837309,22841370,22864821,22864826,22864827,22864830,22864831,22864833,28037521,30570411,null]" data-school-id="278090" data-school-launched="true" data-preview="logged_in" data-turn-off-fedora-branding="true" data-plan-supports-whitelabeling="true" data-powered-by-text="Powered by" data-asset-path="//https://fedora.teachablecdn.com/assets/footer/teachable-logomark-white-31d2296978598bacace50e6d48a2e1223c20a9b074af424acdd465676f81560f.svg" data-school-preferences="{&quot;ssl_forced&quot;:&quot;true&quot;,&quot;bazaar_enabled&quot;:&quot;false&quot;,&quot;paypal_enabled&quot;:&quot;true&quot;,&quot;autoplay_lectures&quot;:&quot;true&quot;,&quot;comments_threaded&quot;:&quot;true&quot;,&quot;course_blocks_beta&quot;:&quot;true&quot;,&quot;eu_vat_tax_enabled&quot;:&quot;false&quot;,&quot;legacy_back_office&quot;:&quot;true&quot;,&quot;themeable_disabled&quot;:&quot;false&quot;,&quot;comments_moderation&quot;:&quot;true&quot;,&quot;eu_vat_tax_eligible&quot;:&quot;true&quot;,&quot;charge_exclusive_tax&quot;:&quot;true&quot;,&quot;send_receipts_emails&quot;:&quot;true&quot;,&quot;autocomplete_lectures&quot;:&quot;true&quot;,&quot;class_periods_enabled&quot;:&quot;false&quot;,&quot;authors_can_manage_pbc&quot;:&quot;true&quot;,&quot;css_properties_enabled&quot;:&quot;false&quot;,&quot;preenrollments_enabled&quot;:&quot;false&quot;,&quot;new_text_editor_enabled&quot;:&quot;true&quot;,&quot;require_terms_agreement&quot;:&quot;true&quot;,&quot;send_new_comment_emails&quot;:&quot;true&quot;,&quot;send_drip_content_emails&quot;:&quot;true&quot;,&quot;ssl_forced_from_creation&quot;:&quot;true&quot;,&quot;turn_off_fedora_branding&quot;:&quot;true&quot;,&quot;allow_comment_attachments&quot;:&quot;true&quot;,&quot;authors_can_email_students&quot;:&quot;false&quot;,&quot;authors_can_manage_coupons&quot;:&quot;false&quot;,&quot;teachable_accounts_enabled&quot;:&quot;true&quot;,&quot;teachable_payments_enabled&quot;:&quot;true&quot;,&quot;authors_can_import_students&quot;:&quot;false&quot;,&quot;authors_can_publish_courses&quot;:&quot;false&quot;,&quot;internal_subscriptions_beta&quot;:&quot;true&quot;,&quot;recaptcha_enabled_on_signup&quot;:&quot;true&quot;,&quot;tax_form_collection_enabled&quot;:&quot;false&quot;,&quot;display_vat_inclusive_prices&quot;:&quot;true&quot;,&quot;single_page_checkout_enabled&quot;:&quot;true&quot;,&quot;authors_can_set_course_prices&quot;:&quot;false&quot;,&quot;affiliate_cookie_duration_days&quot;:&quot;365&quot;,&quot;authors_can_issue_certificates&quot;:&quot;false&quot;,&quot;store_student_cards_separately&quot;:&quot;true&quot;,&quot;authors_can_manage_certificates&quot;:&quot;false&quot;,&quot;authors_can_manage_course_pages&quot;:&quot;false&quot;,&quot;prevent_new_coupon_applications&quot;:&quot;true&quot;,&quot;disable_js_course_event_tracking&quot;:&quot;false&quot;,&quot;exclusive_vat_on_custom_gateways&quot;:&quot;true&quot;,&quot;is_edit_site_onboarding_complete&quot;:&quot;false&quot;,&quot;send_certificate_issuance_emails&quot;:&quot;true&quot;,&quot;owner_teachable_accounts_required&quot;:&quot;true&quot;,&quot;prevent_payment_plan_cancellation&quot;:&quot;false&quot;,&quot;send_subscription_reminder_emails&quot;:&quot;true&quot;,&quot;automatically_add_disqus_attachments&quot;:&quot;true&quot;,&quot;recalc_course_pct_on_lecture_publish&quot;:&quot;true&quot;,&quot;send_confirmation_instructions_emails&quot;:&quot;true&quot;,&quot;send_limited_time_unenrollment_emails&quot;:&quot;true&quot;,&quot;turn_off_myteachable_sign_up_branding&quot;:&quot;true&quot;}" data-accessible-features="[&quot;bulk_enroll_students&quot;,&quot;manually_importing_users&quot;,&quot;native_certificates&quot;,&quot;earnings_statements&quot;,&quot;teachable_payments&quot;,&quot;teachable_u&quot;,&quot;course_compliance&quot;,&quot;page_editor_v2&quot;,&quot;certificates_editor_v2&quot;,&quot;drip_content&quot;,&quot;custom_domain&quot;,&quot;coupons&quot;,&quot;graded_quizzes&quot;,&quot;email&quot;,&quot;course_reports&quot;,&quot;webhooks&quot;,&quot;integrations&quot;,&quot;zapier_action_create_user&quot;,&quot;teachable_payments_payout_view&quot;,&quot;pbc&quot;,&quot;bundles&quot;,&quot;upsells&quot;,&quot;facebook_pixel&quot;,&quot;user_search_filters&quot;,&quot;multiple_course_pages&quot;,&quot;proration_upgrade_flow&quot;,&quot;cross_border_payments&quot;,&quot;limited_time_enrollments&quot;,&quot;sales_tax_on_student_checkout&quot;,&quot;layabout_templates&quot;,&quot;new_device_confirmation&quot;,&quot;elasticsearch_users&quot;,&quot;elasticsearch_transactions&quot;,&quot;reset_progress&quot;,&quot;fraud_warnings&quot;,&quot;paypal_through_tp&quot;,&quot;new_creator_checkout&quot;,&quot;circle_oauth&quot;]" data-course-data="{&quot;is_lecture_order_enforced&quot;:null,&quot;is_minimum_quiz_score_enforced&quot;:null,&quot;is_video_completion_enforced&quot;:null,&quot;minimum_quiz_score&quot;:null,&quot;maximum_quiz_retakes&quot;:null}" data-course-url="https://trainings.boltiot.com/courses/1071071" data-course-id="1071071" data-lecture-id="22864833" data-lecture-url="https://trainings.boltiot.com/courses/1071071/lectures/22864833" data-quiz-strings="{&quot;check&quot;:&quot;Check&quot;,&quot;error&quot;:&quot;Select an answer.&quot;,&quot;label&quot;:&quot;Quiz&quot;,&quot;next&quot;:&quot;Continue&quot;,&quot;previous&quot;:&quot;Back&quot;,&quot;scored&quot;:&quot;You scored&quot;,&quot;retake&quot;:&quot;Retake Quiz&quot;,&quot;retry&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - you may retake this quiz %{retakes} more time(s).&quot;,&quot;request&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - a request has been sent to the school owner to reset your score. You will be notified if the school owner allows you to retake this quiz.&quot;}" /><meta id="analytics-keys" name="analytics" data-analytics="{&quot;Google Analytics&quot;:{&quot;trackingId&quot;:&quot;UA-71725890-16&quot;,&quot;enhancedEcommerce&quot;:true,&quot;sendUserId&quot;:true,&quot;anonymizeIp&quot;:true}}" />
+    
+    <!-- Lecture Header -->
+<header class='full-width half-height is-signed-in'>
+  <div class='lecture-left'>
+    <a class='nav-icon-back' aria-label='Back to course curriculum' data-no-turbolink="true" role='button' href='/courses/1071071'>
+      <svg width="24" height="24" title="Back to course curriculum">
+        <use xlink:href="#icon__Home"></use>
+      </svg>
+    </a>
+    <div class="dropdown settings-dropdown" role='menubar'>
+      <a href='#' class='nav-icon-settings dropdown-toggle' aria-label='Settings Menu' aria-haspopup='true' role='menuitem' id='settings_menu' data-toggle='dropdown'>
+        <svg width="24" height="24" title="Settings Menu">
+          <use xlink:href="#icon__Settings"></use>
+        </svg>
+      </a>
+      <ul class="dropdown-menu left-caret" role="menu" aria-labelledby="settings_menu">
+  <!-- AUTOPLAY -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autoplay-lectures">
+      <input id="custom-toggle-autoplay" class="custom-toggle custom-toggle-round" name="toggle-autoplay" type="checkbox" aria-label="Autoplay">
+      <label for="custom-toggle-autoplay"></label>
+    </div>
+    <span aria-labelledby="switch-autoplay-lectures">Autoplay</span>
+  </li>
+  <!-- AUTOCOMPLETE -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autocomplete-lectures">
+      <input id="custom-toggle-autocomplete" class="custom-toggle custom-toggle-round" name="toggle-autocomplete" type="checkbox" aria-label="Autocomplete">
+      <label for="custom-toggle-autocomplete"></label>
+    </div>
+    <span aria-labelledby="switch-autocomplete-lectures">Autocomplete</span>
+  </li>
+  <!-- PLAYBACK SPEED -->
+  <li aria-label="menuitem">
+    <div class="pull-right">
+      <button class="playback-speed" role="button">
+      </button>
+    </div>
+    Speed
+  </li>
+  <!-- QUALITY: not working yet -->
+  <!--  <li>
+    <div class="pull-right">
+      <div class="switch-toggle switch-3 well">
+        <input id="auto" name="quality" type="radio" checked>
+        <label for="auto" onclick="">Auto</label>
+        <input id="hd" name="quality" type="radio">
+        <label for="hd" onclick="">HD</label>
+        <input id="sd" name="quality" type="radio">
+        <label for="sd" onclick="">SD</label>
+        <a class="btn btn-primary"></a>
+      </div>
+    </div>
+    Quality
+  </li> -->
+</ul>
+
+    </div>
+    <a class="nav-icon-list show-xs hidden-sm hidden-md hidden-lg collapsed" aria-label='Course Sidebar' role="button" data-toggle="collapse" href="#courseSidebar" aria-expanded="false" aria-controls="courseSidebar">
+        <svg width="24" height="24" title="Course Sidebar">
+          <use xlink:href="#icon__FormatListBulleted"></use>
+        </svg>
+      </a>
+  </div>
+  
+  <div class='lecture-nav'>
+    <a class='nav-btn' href='' role='button' id='lecture_previous_button'>
+        <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowBack"></use>
+         </svg>
+      &nbsp;
+      <span class='nav-text'>Previous Lecture</span>
+    </a>
+    <a
+      class='nav-btn complete'
+      data-cpl-tooltip='You must complete all lecture material before progressing.'
+      data-vpl-tooltip='90% of each video must be completed. You have completed %{progress_completed} of the current video.'
+      href=''
+      id='lecture_complete_button'
+      role='button'
+    >
+      <span class='nav-text'>Complete and Continue</span>
+      &nbsp;
+      <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowForward"></use>
+        </svg>
+    </a>
+  </div>
+  
+</header>
+
+    <section class="lecture-page-layout">
+      <div role="navigation" class='course-sidebar lecture-page navbar-collapse navbar-sidebar-collapse' id='courseSidebar'>
+  <div class='course-sidebar-head'>
+    <h2>Web Development training on HTML, CSS and JavaScript</h2>
+    <!-- Course Progress -->
+    
+    <div class='course-progress lecture-page is-at-top'>
+      <div class='progressbar'>
+        <div class='progressbar-fill' style='min-width: 20%;'></div>
+      </div>
+      <div class='small course-progress-percentage'>
+        <span class='percentage'>
+          20%
+        </span>
+        COMPLETE
+      </div>
+    </div>
+    
+  </div>
+  <!-- Lecture list on courses page (enrolled user) -->
+
+  <div class='row lecture-sidebar'>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1071071">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        HTML
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31398144" data-lecture-url='/courses/web-development-training/lectures/31398144' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31398144'
+            data-ss-event-type='link' data-ss-lecture-id='31398144'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31398144' id='sidebar_link_31398144'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Internship upon Training completion
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821555" data-lecture-url='/courses/web-development-training/lectures/22821555' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821555'
+            data-ss-event-type='link' data-ss-lecture-id='22821555'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821555' id='sidebar_link_22821555'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                introduction to HTML
+                
+                (1:45)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22836014" data-lecture-url='/courses/web-development-training/lectures/22836014' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22836014'
+            data-ss-event-type='link' data-ss-lecture-id='22836014'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22836014' id='sidebar_link_22836014'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                HTML Tags
+                
+                (2:04)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22836208" data-lecture-url='/courses/web-development-training/lectures/22836208' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22836208'
+            data-ss-event-type='link' data-ss-lecture-id='22836208'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22836208' id='sidebar_link_22836208'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                HTML document structure
+                
+                (2:39)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="28037521" data-lecture-url='/courses/web-development-training/lectures/28037521' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/28037521'
+            data-ss-event-type='link' data-ss-lecture-id='28037521'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/28037521' id='sidebar_link_28037521'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Before we move forward
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22836344" data-lecture-url='/courses/web-development-training/lectures/22836344' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22836344'
+            data-ss-event-type='link' data-ss-lecture-id='22836344'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22836344' id='sidebar_link_22836344'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Development Environment For Writing HTML Code
+                
+                (4:00)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22836348" data-lecture-url='/courses/web-development-training/lectures/22836348' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22836348'
+            data-ss-event-type='link' data-ss-lecture-id='22836348'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22836348' id='sidebar_link_22836348'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Setting up Android phone for writing HTML code
+                
+                (4:25)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22836352" data-lecture-url='/courses/web-development-training/lectures/22836352' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22836352'
+            data-ss-event-type='link' data-ss-lecture-id='22836352'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22836352' id='sidebar_link_22836352'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Building Your First Webpage
+                
+                (13:26)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22837255" data-lecture-url='/courses/web-development-training/lectures/22837255' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22837255'
+            data-ss-event-type='link' data-ss-lecture-id='22837255'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22837255' id='sidebar_link_22837255'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Paragraph tag in HTML
+                
+                (5:39)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22837260" data-lecture-url='/courses/web-development-training/lectures/22837260' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22837260'
+            data-ss-event-type='link' data-ss-lecture-id='22837260'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22837260' id='sidebar_link_22837260'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Headings in HTML
+                
+                (8:00)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22837264" data-lecture-url='/courses/web-development-training/lectures/22837264' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22837264'
+            data-ss-event-type='link' data-ss-lecture-id='22837264'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22837264' id='sidebar_link_22837264'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Text color in HTML
+                
+                (12:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22837281" data-lecture-url='/courses/web-development-training/lectures/22837281' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22837281'
+            data-ss-event-type='link' data-ss-lecture-id='22837281'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22837281' id='sidebar_link_22837281'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Background color in HTML
+                
+                (6:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22837309" data-lecture-url='/courses/web-development-training/lectures/22837309' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22837309'
+            data-ss-event-type='link' data-ss-lecture-id='22837309'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22837309' id='sidebar_link_22837309'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Embedding images in HTML
+                
+                (4:19)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22841370" data-lecture-url='/courses/web-development-training/lectures/22841370' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22841370'
+            data-ss-event-type='link' data-ss-lecture-id='22841370'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22841370' id='sidebar_link_22841370'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Resizing image in HTML
+                
+                (7:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864821" data-lecture-url='/courses/web-development-training/lectures/22864821' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864821'
+            data-ss-event-type='link' data-ss-lecture-id='22864821'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864821' id='sidebar_link_22864821'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                HTML Hyperlink
+                
+                (5:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864826" data-lecture-url='/courses/web-development-training/lectures/22864826' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864826'
+            data-ss-event-type='link' data-ss-lecture-id='22864826'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864826' id='sidebar_link_22864826'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Image as link in HTML
+                
+                (3:47)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864827" data-lecture-url='/courses/web-development-training/lectures/22864827' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864827'
+            data-ss-event-type='link' data-ss-lecture-id='22864827'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864827' id='sidebar_link_22864827'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                span tag in HTML
+                
+                (4:07)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864830" data-lecture-url='/courses/web-development-training/lectures/22864830' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864830'
+            data-ss-event-type='link' data-ss-lecture-id='22864830'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864830' id='sidebar_link_22864830'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                div tag in HTML
+                
+                (6:31)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864831" data-lecture-url='/courses/web-development-training/lectures/22864831' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864831'
+            data-ss-event-type='link' data-ss-lecture-id='22864831'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864831' id='sidebar_link_22864831'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Difference between div and span tags
+                
+                (7:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="30570411" data-lecture-url='/courses/web-development-training/lectures/30570411' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/30570411'
+            data-ss-event-type='link' data-ss-lecture-id='30570411'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/30570411' id='sidebar_link_30570411'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Quiz 1
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864833" data-lecture-url='/courses/web-development-training/lectures/22864833' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864833'
+            data-ss-event-type='link' data-ss-lecture-id='22864833'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864833' id='sidebar_link_22864833'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Introduction to CSS
+                
+                (3:30)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22864835" data-lecture-url='/courses/web-development-training/lectures/22864835' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22864835'
+            data-ss-event-type='link' data-ss-lecture-id='22864835'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22864835' id='sidebar_link_22864835'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Adding CSS in HTML
+                
+                (9:14)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924623" data-lecture-url='/courses/web-development-training/lectures/22924623' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924623'
+            data-ss-event-type='link' data-ss-lecture-id='22924623'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924623' id='sidebar_link_22924623'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Classes in HTML
+                
+                (8:37)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924624" data-lecture-url='/courses/web-development-training/lectures/22924624' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924624'
+            data-ss-event-type='link' data-ss-lecture-id='22924624'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924624' id='sidebar_link_22924624'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                IDs in HTML
+                
+                (5:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924626" data-lecture-url='/courses/web-development-training/lectures/22924626' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924626'
+            data-ss-event-type='link' data-ss-lecture-id='22924626'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924626' id='sidebar_link_22924626'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Set height and width using CSS
+                
+                (8:22)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924627" data-lecture-url='/courses/web-development-training/lectures/22924627' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924627'
+            data-ss-event-type='link' data-ss-lecture-id='22924627'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924627' id='sidebar_link_22924627'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Borders in CSS
+                
+                (4:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924628" data-lecture-url='/courses/web-development-training/lectures/22924628' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924628'
+            data-ss-event-type='link' data-ss-lecture-id='22924628'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924628' id='sidebar_link_22924628'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Borders in CSS using individual border property
+                
+                (6:52)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22924631" data-lecture-url='/courses/web-development-training/lectures/22924631' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22924631'
+            data-ss-event-type='link' data-ss-lecture-id='22924631'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22924631' id='sidebar_link_22924631'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Styling text in CSS
+                
+                (4:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22931967" data-lecture-url='/courses/web-development-training/lectures/22931967' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22931967'
+            data-ss-event-type='link' data-ss-lecture-id='22931967'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22931967' id='sidebar_link_22931967'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Text formatting tags in HTML
+                
+                (6:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986187" data-lecture-url='/courses/web-development-training/lectures/22986187' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986187'
+            data-ss-event-type='link' data-ss-lecture-id='22986187'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986187' id='sidebar_link_22986187'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Tables in HTML
+                
+                (5:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986421" data-lecture-url='/courses/web-development-training/lectures/22986421' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986421'
+            data-ss-event-type='link' data-ss-lecture-id='22986421'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986421' id='sidebar_link_22986421'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Styling tables using CSS
+                
+                (11:19)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986422" data-lecture-url='/courses/web-development-training/lectures/22986422' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986422'
+            data-ss-event-type='link' data-ss-lecture-id='22986422'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986422' id='sidebar_link_22986422'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Navigation tag in HTML
+                
+                (5:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986425" data-lecture-url='/courses/web-development-training/lectures/22986425' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986425'
+            data-ss-event-type='link' data-ss-lecture-id='22986425'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986425' id='sidebar_link_22986425'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Lists in HTML
+                
+                (5:53)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986424" data-lecture-url='/courses/web-development-training/lectures/22986424' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986424'
+            data-ss-event-type='link' data-ss-lecture-id='22986424'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986424' id='sidebar_link_22986424'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Ordered and description list in HTML
+                
+                (6:02)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986426" data-lecture-url='/courses/web-development-training/lectures/22986426' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986426'
+            data-ss-event-type='link' data-ss-lecture-id='22986426'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986426' id='sidebar_link_22986426'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Footer in HTML
+                
+                (4:02)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="30570425" data-lecture-url='/courses/web-development-training/lectures/30570425' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/30570425'
+            data-ss-event-type='link' data-ss-lecture-id='30570425'
+            data-ss-position='1' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/30570425' id='sidebar_link_30570425'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Quiz 2
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1071071">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        CSS
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="28037653" data-lecture-url='/courses/web-development-training/lectures/28037653' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/28037653'
+            data-ss-event-type='link' data-ss-lecture-id='28037653'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/28037653' id='sidebar_link_28037653'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Before we move forward
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22986432" data-lecture-url='/courses/web-development-training/lectures/22986432' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22986432'
+            data-ss-event-type='link' data-ss-lecture-id='22986432'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22986432' id='sidebar_link_22986432'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Display property in CSS
+                
+                (6:26)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821556" data-lecture-url='/courses/web-development-training/lectures/22821556' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821556'
+            data-ss-event-type='link' data-ss-lecture-id='22821556'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821556' id='sidebar_link_22821556'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                CSS selectors (Part 1)
+                
+                (7:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821557" data-lecture-url='/courses/web-development-training/lectures/22821557' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821557'
+            data-ss-event-type='link' data-ss-lecture-id='22821557'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821557' id='sidebar_link_22821557'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                CSS selectors (Part 2)
+                
+                (7:12)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821558" data-lecture-url='/courses/web-development-training/lectures/22821558' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821558'
+            data-ss-event-type='link' data-ss-lecture-id='22821558'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821558' id='sidebar_link_22821558'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Margin property in CSS
+                
+                (5:45)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987067" data-lecture-url='/courses/web-development-training/lectures/22987067' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987067'
+            data-ss-event-type='link' data-ss-lecture-id='22987067'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987067' id='sidebar_link_22987067'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Padding property in CSS
+                
+                (5:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987068" data-lecture-url='/courses/web-development-training/lectures/22987068' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987068'
+            data-ss-event-type='link' data-ss-lecture-id='22987068'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987068' id='sidebar_link_22987068'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Positioning in CSS
+                
+                (6:36)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987073" data-lecture-url='/courses/web-development-training/lectures/22987073' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987073'
+            data-ss-event-type='link' data-ss-lecture-id='22987073'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987073' id='sidebar_link_22987073'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Positioning in CSS (Part 2)
+                
+                (7:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987076" data-lecture-url='/courses/web-development-training/lectures/22987076' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987076'
+            data-ss-event-type='link' data-ss-lecture-id='22987076'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987076' id='sidebar_link_22987076'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Positioning in CSS (Part 3)
+                
+                (4:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987083" data-lecture-url='/courses/web-development-training/lectures/22987083' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987083'
+            data-ss-event-type='link' data-ss-lecture-id='22987083'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987083' id='sidebar_link_22987083'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Responsive meta tag
+                
+                (4:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987157" data-lecture-url='/courses/web-development-training/lectures/22987157' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987157'
+            data-ss-event-type='link' data-ss-lecture-id='22987157'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987157' id='sidebar_link_22987157'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                HTML entities
+                
+                (3:09)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987159" data-lecture-url='/courses/web-development-training/lectures/22987159' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987159'
+            data-ss-event-type='link' data-ss-lecture-id='22987159'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987159' id='sidebar_link_22987159'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Float property in CSS
+                
+                (3:29)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987161" data-lecture-url='/courses/web-development-training/lectures/22987161' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987161'
+            data-ss-event-type='link' data-ss-lecture-id='22987161'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987161' id='sidebar_link_22987161'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Chrome inspect tool
+                
+                (5:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987162" data-lecture-url='/courses/web-development-training/lectures/22987162' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987162'
+            data-ss-event-type='link' data-ss-lecture-id='22987162'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987162' id='sidebar_link_22987162'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                z-index property in CSS
+                
+                (4:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987164" data-lecture-url='/courses/web-development-training/lectures/22987164' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987164'
+            data-ss-event-type='link' data-ss-lecture-id='22987164'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987164' id='sidebar_link_22987164'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Media queries in CSS
+                
+                (7:49)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987182" data-lecture-url='/courses/web-development-training/lectures/22987182' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987182'
+            data-ss-event-type='link' data-ss-lecture-id='22987182'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987182' id='sidebar_link_22987182'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Coffee Shop-Nav bar
+                
+                (8:30)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987183" data-lecture-url='/courses/web-development-training/lectures/22987183' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987183'
+            data-ss-event-type='link' data-ss-lecture-id='22987183'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987183' id='sidebar_link_22987183'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Coffee Shop Project - Background Image
+                
+                (7:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987192" data-lecture-url='/courses/web-development-training/lectures/22987192' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987192'
+            data-ss-event-type='link' data-ss-lecture-id='22987192'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987192' id='sidebar_link_22987192'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Coffee Shop - Coffee cards
+                
+                (6:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987193" data-lecture-url='/courses/web-development-training/lectures/22987193' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987193'
+            data-ss-event-type='link' data-ss-lecture-id='22987193'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987193' id='sidebar_link_22987193'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Forms in HTML
+                
+                (5:42)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987194" data-lecture-url='/courses/web-development-training/lectures/22987194' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987194'
+            data-ss-event-type='link' data-ss-lecture-id='22987194'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987194' id='sidebar_link_22987194'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Using online form builder
+                
+                (4:21)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="30570435" data-lecture-url='/courses/web-development-training/lectures/30570435' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/30570435'
+            data-ss-event-type='link' data-ss-lecture-id='30570435'
+            data-ss-position='2' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/30570435' id='sidebar_link_30570435'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Quiz 3
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1071071">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        JavaScript
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="28037679" data-lecture-url='/courses/web-development-training/lectures/28037679' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/28037679'
+            data-ss-event-type='link' data-ss-lecture-id='28037679'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/28037679' id='sidebar_link_28037679'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Before we move forward
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821559" data-lecture-url='/courses/web-development-training/lectures/22821559' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821559'
+            data-ss-event-type='link' data-ss-lecture-id='22821559'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821559' id='sidebar_link_22821559'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Introduction to JavaScript
+                
+                (7:23)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821560" data-lecture-url='/courses/web-development-training/lectures/22821560' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821560'
+            data-ss-event-type='link' data-ss-lecture-id='22821560'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821560' id='sidebar_link_22821560'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Variables in JavaScript
+                
+                (6:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821562" data-lecture-url='/courses/web-development-training/lectures/22821562' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821562'
+            data-ss-event-type='link' data-ss-lecture-id='22821562'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821562' id='sidebar_link_22821562'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Operators in JavaScript
+                
+                (5:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821563" data-lecture-url='/courses/web-development-training/lectures/22821563' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821563'
+            data-ss-event-type='link' data-ss-lecture-id='22821563'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821563' id='sidebar_link_22821563'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Functions in JavaScript
+                
+                (6:16)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22821564" data-lecture-url='/courses/web-development-training/lectures/22821564' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22821564'
+            data-ss-event-type='link' data-ss-lecture-id='22821564'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22821564' id='sidebar_link_22821564'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                getElementById in Javascript
+                
+                (5:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987730" data-lecture-url='/courses/web-development-training/lectures/22987730' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987730'
+            data-ss-event-type='link' data-ss-lecture-id='22987730'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987730' id='sidebar_link_22987730'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Comparison Operators in JavaScript
+                
+                (4:16)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987732" data-lecture-url='/courses/web-development-training/lectures/22987732' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987732'
+            data-ss-event-type='link' data-ss-lecture-id='22987732'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987732' id='sidebar_link_22987732'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Conditional statement in JavaScript
+                
+                (4:02)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987735" data-lecture-url='/courses/web-development-training/lectures/22987735' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987735'
+            data-ss-event-type='link' data-ss-lecture-id='22987735'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987735' id='sidebar_link_22987735'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                JavaScript Events
+                
+                (2:48)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987737" data-lecture-url='/courses/web-development-training/lectures/22987737' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987737'
+            data-ss-event-type='link' data-ss-lecture-id='22987737'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987737' id='sidebar_link_22987737'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                JavaScript Events (Part 2)
+                
+                (3:50)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987739" data-lecture-url='/courses/web-development-training/lectures/22987739' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987739'
+            data-ss-event-type='link' data-ss-lecture-id='22987739'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987739' id='sidebar_link_22987739'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Ajax in JavaScript
+                
+                (5:25)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987866" data-lecture-url='/courses/web-development-training/lectures/22987866' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987866'
+            data-ss-event-type='link' data-ss-lecture-id='22987866'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987866' id='sidebar_link_22987866'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Ajax in JavaScript (Code)
+                
+                (6:38)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987868" data-lecture-url='/courses/web-development-training/lectures/22987868' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987868'
+            data-ss-event-type='link' data-ss-lecture-id='22987868'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987868' id='sidebar_link_22987868'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Setting CSS styles using JavaScript
+                
+                (2:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987869" data-lecture-url='/courses/web-development-training/lectures/22987869' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987869'
+            data-ss-event-type='link' data-ss-lecture-id='22987869'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987869' id='sidebar_link_22987869'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Setting img src using JavaScript
+                
+                (2:42)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987871" data-lecture-url='/courses/web-development-training/lectures/22987871' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987871'
+            data-ss-event-type='link' data-ss-lecture-id='22987871'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987871' id='sidebar_link_22987871'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Creating weatherbit account for fetching weather details
+                
+                (3:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987873" data-lecture-url='/courses/web-development-training/lectures/22987873' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987873'
+            data-ss-event-type='link' data-ss-lecture-id='22987873'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987873' id='sidebar_link_22987873'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Showing weather data using on HTML page
+                
+                (4:17)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="22987876" data-lecture-url='/courses/web-development-training/lectures/22987876' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/22987876'
+            data-ss-event-type='link' data-ss-lecture-id='22987876'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/22987876' id='sidebar_link_22987876'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Useful web development tools and resources
+                
+                (4:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="30570464" data-lecture-url='/courses/web-development-training/lectures/30570464' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/30570464'
+            data-ss-event-type='link' data-ss-lecture-id='30570464'
+            data-ss-position='3' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/30570464' id='sidebar_link_30570464'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Quiz 4
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1071071">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        React.js
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31982315" data-lecture-url='/courses/web-development-training/lectures/31982315' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982315'
+            data-ss-event-type='link' data-ss-lecture-id='31982315'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982315' id='sidebar_link_31982315'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                What is React.js?
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982397" data-lecture-url='/courses/web-development-training/lectures/31982397' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982397'
+            data-ss-event-type='link' data-ss-lecture-id='31982397'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982397' id='sidebar_link_31982397'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                React vs Vanilla Javscript
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982452" data-lecture-url='/courses/web-development-training/lectures/31982452' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982452'
+            data-ss-event-type='link' data-ss-lecture-id='31982452'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982452' id='sidebar_link_31982452'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Setting up your Development Environment
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982401" data-lecture-url='/courses/web-development-training/lectures/31982401' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982401'
+            data-ss-event-type='link' data-ss-lecture-id='31982401'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982401' id='sidebar_link_31982401'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Analysing the React Project folder
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982404" data-lecture-url='/courses/web-development-training/lectures/31982404' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982404'
+            data-ss-event-type='link' data-ss-lecture-id='31982404'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982404' id='sidebar_link_31982404'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                React DOM
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982407" data-lecture-url='/courses/web-development-training/lectures/31982407' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982407'
+            data-ss-event-type='link' data-ss-lecture-id='31982407'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982407' id='sidebar_link_31982407'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                React Elements
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982408" data-lecture-url='/courses/web-development-training/lectures/31982408' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982408'
+            data-ss-event-type='link' data-ss-lecture-id='31982408'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982408' id='sidebar_link_31982408'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                React JSX
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982411" data-lecture-url='/courses/web-development-training/lectures/31982411' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982411'
+            data-ss-event-type='link' data-ss-lecture-id='31982411'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982411' id='sidebar_link_31982411'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Understanding React's components and templates
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982412" data-lecture-url='/courses/web-development-training/lectures/31982412' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982412'
+            data-ss-event-type='link' data-ss-lecture-id='31982412'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982412' id='sidebar_link_31982412'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Dynamic content using components and JSX
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982421" data-lecture-url='/courses/web-development-training/lectures/31982421' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982421'
+            data-ss-event-type='link' data-ss-lecture-id='31982421'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982421' id='sidebar_link_31982421'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Props in React
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982422" data-lecture-url='/courses/web-development-training/lectures/31982422' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982422'
+            data-ss-event-type='link' data-ss-lecture-id='31982422'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982422' id='sidebar_link_31982422'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                State in React
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982423" data-lecture-url='/courses/web-development-training/lectures/31982423' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982423'
+            data-ss-event-type='link' data-ss-lecture-id='31982423'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982423' id='sidebar_link_31982423'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Events in React
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982424" data-lecture-url='/courses/web-development-training/lectures/31982424' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982424'
+            data-ss-event-type='link' data-ss-lecture-id='31982424'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982424' id='sidebar_link_31982424'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Working with Inline styles
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982427" data-lecture-url='/courses/web-development-training/lectures/31982427' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982427'
+            data-ss-event-type='link' data-ss-lecture-id='31982427'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982427' id='sidebar_link_31982427'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Styling with Stylesheets
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982431" data-lecture-url='/courses/web-development-training/lectures/31982431' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982431'
+            data-ss-event-type='link' data-ss-lecture-id='31982431'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982431' id='sidebar_link_31982431'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Media queries
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982432" data-lecture-url='/courses/web-development-training/lectures/31982432' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982432'
+            data-ss-event-type='link' data-ss-lecture-id='31982432'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982432' id='sidebar_link_31982432'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Working with Lists
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982433" data-lecture-url='/courses/web-development-training/lectures/31982433' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982433'
+            data-ss-event-type='link' data-ss-lecture-id='31982433'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982433' id='sidebar_link_31982433'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Creating a custom dynamic input component
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982436" data-lecture-url='/courses/web-development-training/lectures/31982436' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982436'
+            data-ss-event-type='link' data-ss-lecture-id='31982436'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982436' id='sidebar_link_31982436'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Form Validation
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982437" data-lecture-url='/courses/web-development-training/lectures/31982437' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982437'
+            data-ss-event-type='link' data-ss-lecture-id='31982437'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982437' id='sidebar_link_31982437'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Handling form submission
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982438" data-lecture-url='/courses/web-development-training/lectures/31982438' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982438'
+            data-ss-event-type='link' data-ss-lecture-id='31982438'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982438' id='sidebar_link_31982438'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Making API requests
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982439" data-lecture-url='/courses/web-development-training/lectures/31982439' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982439'
+            data-ss-event-type='link' data-ss-lecture-id='31982439'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982439' id='sidebar_link_31982439'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Error Handling
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31982449" data-lecture-url='/courses/web-development-training/lectures/31982449' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/31982449'
+            data-ss-event-type='link' data-ss-lecture-id='31982449'
+            data-ss-position='4' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/31982449' id='sidebar_link_31982449'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Quiz
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1071071">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Certification
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="29560524" data-lecture-url='/courses/web-development-training/lectures/29560524' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/29560524'
+            data-ss-event-type='link' data-ss-lecture-id='29560524'
+            data-ss-position='6' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/29560524' id='sidebar_link_29560524'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Instructions for the exam
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="32576619" data-lecture-url='/courses/web-development-training/lectures/32576619' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1071071'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/web-development-training/lectures/32576619'
+            data-ss-event-type='link' data-ss-lecture-id='32576619'
+            data-ss-position='6' data-ss-school-id='278090'
+            data-ss-user-id='58871702' href='/courses/web-development-training/lectures/32576619' id='sidebar_link_32576619'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Instructions on Assured Internship
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+      <!-- Lecture Content -->
+<div role="main" class="course-mainbar lecture-content full-width-content">
+  <!-- Meta tag for tracking lecture progress -->
+  <meta id="lecture-completion-data" data-last-lecture-id="31398144" data-last-lecture-url="/courses/1071071/lectures/31398144" data-is-completed="true" data-can-access-lecture="true" data-compliance-enabled="false" data-valid-for-completion="true" />
+  <h2 id="lecture_heading" class="section-title dsp-flex-xs flex-align-items-center-xs" data-lecture-id="22864833" data-next-lecture-id="22864835" data-lecture-url="/courses/1071071/lectures/22864833" data-next-lecture-url="/courses/1071071/lectures/22864835", data-previous-lecture-url="/courses/1071071/lectures/31398144" data-previous-lecture-id="31398144" >
+    <svg width="24" height="24">
+        <use xlink:href="#icon__Video"></use>
+      </svg>
+    &nbsp;
+    Introduction to CSS
+</h2>
+
+  <!-- Attachment Blocks -->
+
+  <div
+    class='lecture-attachment lecture-attachment-type-video'
+    id="lecture-attachment-41300090"
+  >
+    <div class="attachment-data"></div>
+    
+      <!-- Attachment: Video -->
+
+  
+    <div class="wistia_responsive_padding">
+      <div class="wistia_responsive_wrapper">
+        <div class='attachment-wistia-player stillSnap=false wistia_embed videoFoam=true' data-wistia-id='07mgcrtrj4' id='wistia-07mgcrtrj4'  data-still-url='https://embed-ssl.wistia.com/deliveries/04555a82392050493417b4eeae1614ab590f41df.jpg?image_crop_resized=200x120'  data-attachment-id='41300090'></div>
+      </div>
+    </div>
+  
+
+
+<!-- Video actions -->
+
+
+    
+  </div>
+
+
+<!-- Comments -->
+
+
+
+<div id='empty_box'></div>
+<!-- Scroll to current lecture link position in sidebar -->
+
+</div>
+
+    </section>
+    <!-- No lecture footer in the new redesign -->
+
+    
+  </body>
+</html>
